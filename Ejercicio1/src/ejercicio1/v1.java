@@ -109,6 +109,7 @@ public class v1 extends JFrame implements ActionListener {
 			contentPane.add(scrollPane);
 			{
 				TxtS = new JTextArea();
+				TxtS.setText("Verificando");
 				scrollPane.setViewportView(TxtS);
 			}
 		}
