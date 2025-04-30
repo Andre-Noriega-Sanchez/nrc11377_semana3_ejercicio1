@@ -170,7 +170,8 @@ public class v1 extends JFrame implements ActionListener {
 	
 			double num1 = Double.parseDouble(TxtN1.getText());
 			double num2 = Double.parseDouble(TxtN2.getText());
-			
+			Hola
+				
 			Calculadora c = new Calculadora(num1, num2);
 			TxtS.setText("");
 			TxtS.append("La suma es:" +c.Sumar(num1, num2));
